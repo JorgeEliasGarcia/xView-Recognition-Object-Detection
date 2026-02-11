@@ -1,13 +1,12 @@
 # Object Detection on xView-Recognition with YOLOv11
 
-## Overview
 This project builds an **object detection** system using the **YOLOv11** architecture on the **xView-recognition dataset**, a large-scale benchmark for overhead/aerial imagery understanding.  
 The notebook covers the end-to-end workflow required to train a YOLO detector for aerial scenes, from dataset setup to inference and qualitative evaluation.
 
 ---
 
 ## Objectives
-- Train a **YOLOv11** model for object detection on **xView-recognition**.
+- Fine-tunning a **YOLOv11** model for object detection on **xView-recognition**.
 - Learn a complete detection workflow: data configuration, training, and inference.
 - Analyze model behavior and common error patterns in overhead imagery.
 - Produce and visualize detections on unseen images.
@@ -62,15 +61,10 @@ Evaluation includes:
 
 ## Technologies Used
 - Python
-- Deep Learning
-- Object Detection
-- YOLOv11
+- Ultralytics
 - NumPy
 - Matplotlib
 
 ---
 
-## Repository Structure
-```text
-├── Detector_Yolov11.ipynb
-└── README.md
+
