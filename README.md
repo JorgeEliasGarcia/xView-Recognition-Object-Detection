@@ -55,7 +55,6 @@ The notebook follows a standard YOLO training workflow:
 Evaluation includes:
 - Visual inspection of predicted bounding boxes on validation/test images
 - Qualitative analysis of false positives/negatives
-- Observing detection performance under scale variation and clutter (common in aerial imagery)
 
 ---
 
