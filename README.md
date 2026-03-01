@@ -22,10 +22,10 @@ In this project, it is used for **object detection**, which requires:
 - Class labels for each object instance
 
 ### Data Preparation
-Typical steps included in the notebook:
+Steps included in the notebook:
 - Organizing images and labels in the format expected by YOLO training.
 - Defining a dataset configuration file (classes, paths, splits).
-- Splitting data into training/validation (and optionally test) sets.
+- Splitting data into training/validation sets.
 - Applying standard image preprocessing/augmentation used in YOLO pipelines.
 
 ---
