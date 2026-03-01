@@ -24,9 +24,8 @@ In this project, it is used for **object detection**, which requires:
 ### Data Preparation
 Steps included in the notebook:
 - Organizing images and labels in the format expected by YOLO training.
-- Defining a dataset configuration file (classes, paths, splits).
 - Splitting data into training/validation sets.
-- Applying standard image preprocessing/augmentation used in YOLO pipelines.
+- Applying oversampling on minoritary classes.
 
 ---
 
@@ -36,7 +35,8 @@ Steps included in the notebook:
 - Well suited for detection tasks where efficiency matters.
 
 ### Training Setup
-- Initialize from pretrained weights (transfer learning) or train from scratch depending on the notebook configuration.
+- Initialize from pretrained weights (transfer learning).
+- Data augmentation and other regularization methods.
 - Optimize detection losses and monitor convergence during training.
 - Save the best-performing weights for inference.
 
@@ -47,7 +47,7 @@ The notebook follows a standard YOLO training workflow:
 1. Dataset configuration and sanity checks
 2. Model initialization
 3. Training with monitored losses/metrics
-4. Checkpointing and model export (if applicable)
+4. Checkpointing and model export
 
 ---
 
